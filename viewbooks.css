@@ -1,0 +1,207 @@
+
+.searchbar{
+  width: 50rem;
+  height: 2.5rem;
+  background: #004E98;
+  margin-bottom: 0%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+  position: relative;
+  
+  }
+  
+  .All_Libraries:hover, .Sort:hover{
+  background: #FF6700;
+  height: 2.5rem;
+  align-items: center;
+
+  }
+  
+  .All_Libraries{
+  display: flex;
+  color: #FFF;
+  font-family: Rubik;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem;  
+}
+  
+  .Sort{
+    display: flex;
+    color: #FFF;
+  font-family: Rubik;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem; 
+ }
+  
+  .searchbar input{
+  margin-left:50px;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 0.625rem;
+  border: 1px solid #000;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+
+.BG{
+  margin-left: auto;
+  margin: auto;
+  margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  position: relative; 
+  width: 50rem;
+  }
+
+
+.BG img{
+  opacity: 0.5;
+  width: 50rem;
+  height: 25rem;
+  z-index: 0;
+}
+
+.bookContainer{
+  position: absolute;
+  background-color:#FFF;
+  z-index: 1;
+  width: 48rem;
+  height: 75px;
+  top: 20%;
+  display: flex;
+  border-radius: 10px;
+}
+
+.bookContainer2{
+  position: absolute;
+  background-color:#FFF;
+  z-index: 1;
+  width: 48rem;
+  height: 75px;
+  top: 45%;
+  display: flex;
+  border-radius: 10px;
+
+}
+
+.bookContainer3{
+  position: absolute;
+  background-color:#FFF;
+  z-index: 1;
+  width: 48rem;
+  height:75px;
+  top: 70%;
+  display: flex;
+  border-radius: 10px;
+
+}
+
+
+.bookshit {
+display: flex;
+margin:auto;
+position: absolute;
+gap: 50px;
+background-color: #FFF;
+margin: 0%;
+padding: 0%;
+height: 40px;
+align-items: center;
+width: 30rem;
+top: 20px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+}
+
+.bookshit button{
+position: absolute;
+right: 10px; 
+height: 30px;
+color: white;
+background-color: #004E98; 
+border-radius: 10px;
+width: 70px;
+font-weight: 700;
+border: none;
+}
+
+.list{
+  display: flex;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  color: #004E98;
+  font-style: normal;
+font-weight: 1000 ;
+line-height: normal;
+}
+
+.blue{
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 76px;
+}
+
+
+.puta {
+  padding: 0%;
+  font-size: 1rem;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #004E98;
+}
+
+.gago{
+  font-size: .7rem;
+  padding: 0%;
+  margin: 0%;
+  padding-left: 10px;
+
+
+}
+
+.kiinginamo{
+  font-size: .7rem;
+  padding: 0%;
+  margin: 0%;
+  padding-left: 10px;
+ 
+}
+
+.Available {
+  font-size: .7rem;
+  padding-left: 31rem;
+  position: absolute;
+  top: 50px;
+  width: 100px;
+  color: #FF6700;
+}
+
+.botnes{
+  position: absolute;
+   height: 15px;
+    width: 15px; 
+    left: 3px;
+    z-index:
+     100; top: 28px;
+  border: 3px;
+}
+
+.botnes.clicked{
+  background-color: #FF6700;
+}
+

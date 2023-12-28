@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+<button onclick="subscribe();" class="butones">
+  Subscribe 
+</button>
+
+<div class="container">
+      <button class="reveal">
+        Reveal Me
+      </button>
+        <div class="text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur itaque voluptates accusantium repellat consectetur dolores voluptatibus magnam laudantium libero doloribus, odit, amet dicta reiciendis cum. Voluptatem ab voluptatibus corrupti architecto!
+        </div>
+</div>
+
+
+  <style>
+    .butones{
+      background-color: red;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 30px;
+  margin: auto;
+    }
+
+    .butones.clicked{
+      background-color: dimgray;
+
+    }
+
+    .container{
+      width: 300px;
+      height: 300px;
+      background-color: aliceblue;
+      position: relative;
+    }
+
+    .reveal {
+      display: flex;
+      margin: auto;   
+    }
+
+    .text{
+      display: none;
+      position: absolute;
+    }
+  </style>
+
+  <script> 
+    function subscribe () {
+      const buttonElement = document.querySelector('.butones');
+      buttonElement.classList.toggle('clicked');
+
+      if (buttonElement.innerText === 'Subscribe') {
+      buttonElement.innerText = 'Subscribed'; 
+    }
+   else  buttonElement.innerHTML = 'Subscribe';
+
+
+  } 
+
+  const buttonElements = document.querySelector('.butones');
+  
+   
+  const body = document.querySelector('body');
+  var button  = document.createElement('button');
+
+
+  body.append(button);
+  button.className = 'tangina';
+  button.style.borderRadius = '30px';
+  button.innerText = 'Xmas Button';
+
+  button.setAttribute('class', 'butones');
+
+
+//  Event Listeners
+
+//  element.addEventListener("click", function);
+
+const button2 = document.querySelector('.butones');
+
+function alertbtn (){
+  alert ('tanginamo jepoy dizon');  
+} 
+
+button2.addEventListener("click", alertbtn);
+
+
+const  newBackgroundColor = document.querySelector('.butones');
+
+  function changeBgColor (){
+    newBackgroundColor.style.backgroundColor = 'blue';
+  }
+
+  newBackgroundColor.addEventListener('mouseover', changeBgColor);
+
+
+  const revealbtn = document.querySelector('.reveal');
+
+  const hidden = document.querySelector('.text');
+
+  function revealContent (){
+    if (hidden.classList.contains('text')) {
+      hidden.classList.remove('text');
+    } else {
+      hidden.classList.add('text');
+    }
+  }
+
+  revealbtn.addEventListener('click', revealContent);
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+body{
+  margin: 0%;
+  padding: 0%;
+
+}
+
+
+
+.parentcont  {
+  position: relative;
+  width: 50rem;
+  height: 25rem;
+  background-color: #004E98;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.parentcont img{
+  position: absolute;
+}
+
+.parentcont p{
+  position: absolute;
+    color: white;
+
+}
+
+.bg{
+  width: 50rem;
+}
+
+.logo{
+  top: 10px;
+  left: 20rem;
+}
+
+.gmail{
+  top: 180px;
+  scale: .5;
+  left: 10rem;
+}
+
+.fb{
+  top: 230px;
+  scale: .5;
+  left: 10rem;
+
+}
+
+.number{
+  top: 280px;
+  scale: .5;
+  left: 10rem;
+}
+
+.p1{
+  left: 15rem;
+  font-size: 1.5rem;
+  top: 175px;
+}
+
+.p2{
+  left: 15rem;
+  font-size: 1.5rem;
+  top: 225px;
+}
+
+.p3{
+  left: 15rem;
+  font-size: 1.5rem;
+  top: 275px;
+}
